@@ -1,4 +1,3 @@
-# weather_model_stage3.py
 def temperature(t, a, b, c):
     return a * t**2 + b * t + c
 
@@ -15,3 +14,4 @@ b = params['b']
 c = params['c']
 
 print(f"Predicted temperature at time {t}: {temperature(t, a, b, c)}°C")
+
